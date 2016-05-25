@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50F7428D1CF5851C00F3EAB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F7428C1CF5851C00F3EAB1 /* main.m */; };
+		50F742901CF5851C00F3EAB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F7428F1CF5851C00F3EAB1 /* AppDelegate.m */; };
+		50F742931CF5851C00F3EAB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F742921CF5851C00F3EAB1 /* ViewController.m */; };
+		50F742961CF5851C00F3EAB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F742941CF5851C00F3EAB1 /* Main.storyboard */; };
+		50F742981CF5851C00F3EAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F742971CF5851C00F3EAB1 /* Assets.xcassets */; };
+		50F7429B1CF5851C00F3EAB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F742991CF5851C00F3EAB1 /* LaunchScreen.storyboard */; };
+		50F742A61CF5851C00F3EAB1 /* CRTopStatusWindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F742A51CF5851C00F3EAB1 /* CRTopStatusWindowTests.m */; };
+		50F742B11CF5851C00F3EAB1 /* CRTopStatusWindowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F742B01CF5851C00F3EAB1 /* CRTopStatusWindowUITests.m */; };
+		50F742CA1CF58AE000F3EAB1 /* CRTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F742C71CF58AE000F3EAB1 /* CRTopViewController.m */; };
+		50F742CB1CF58AE000F3EAB1 /* CRTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F742C91CF58AE000F3EAB1 /* CRTopWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50F742A21CF5851C00F3EAB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50F742801CF5851C00F3EAB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50F742871CF5851C00F3EAB1;
+			remoteInfo = CRTopStatusWindow;
+		};
+		50F742AD1CF5851C00F3EAB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50F742801CF5851C00F3EAB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50F742871CF5851C00F3EAB1;
+			remoteInfo = CRTopStatusWindow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50F742881CF5851C00F3EAB1 /* CRTopStatusWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRTopStatusWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F7428C1CF5851C00F3EAB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50F7428E1CF5851C00F3EAB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50F7428F1CF5851C00F3EAB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50F742911CF5851C00F3EAB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50F742921CF5851C00F3EAB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50F742951CF5851C00F3EAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50F742971CF5851C00F3EAB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50F7429A1CF5851C00F3EAB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50F7429C1CF5851C00F3EAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F742A11CF5851C00F3EAB1 /* CRTopStatusWindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRTopStatusWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F742A51CF5851C00F3EAB1 /* CRTopStatusWindowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRTopStatusWindowTests.m; sourceTree = "<group>"; };
+		50F742A71CF5851C00F3EAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F742AC1CF5851C00F3EAB1 /* CRTopStatusWindowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRTopStatusWindowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F742B01CF5851C00F3EAB1 /* CRTopStatusWindowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRTopStatusWindowUITests.m; sourceTree = "<group>"; };
+		50F742B21CF5851C00F3EAB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F742C61CF58AE000F3EAB1 /* CRTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRTopViewController.h; sourceTree = "<group>"; };
+		50F742C71CF58AE000F3EAB1 /* CRTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRTopViewController.m; sourceTree = "<group>"; };
+		50F742C81CF58AE000F3EAB1 /* CRTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRTopWindow.h; sourceTree = "<group>"; };
+		50F742C91CF58AE000F3EAB1 /* CRTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRTopWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50F742851CF5851C00F3EAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F7429E1CF5851C00F3EAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F742A91CF5851C00F3EAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50F7427F1CF5851C00F3EAB1 = {
+			isa = PBXGroup;
+			children = (
+				50F7428A1CF5851C00F3EAB1 /* CRTopStatusWindow */,
+				50F742A41CF5851C00F3EAB1 /* CRTopStatusWindowTests */,
+				50F742AF1CF5851C00F3EAB1 /* CRTopStatusWindowUITests */,
+				50F742891CF5851C00F3EAB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50F742891CF5851C00F3EAB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50F742881CF5851C00F3EAB1 /* CRTopStatusWindow.app */,
+				50F742A11CF5851C00F3EAB1 /* CRTopStatusWindowTests.xctest */,
+				50F742AC1CF5851C00F3EAB1 /* CRTopStatusWindowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50F7428A1CF5851C00F3EAB1 /* CRTopStatusWindow */ = {
+			isa = PBXGroup;
+			children = (
+				50F742C51CF58AE000F3EAB1 /* CRTopWindow */,
+				50F7428E1CF5851C00F3EAB1 /* AppDelegate.h */,
+				50F7428F1CF5851C00F3EAB1 /* AppDelegate.m */,
+				50F742911CF5851C00F3EAB1 /* ViewController.h */,
+				50F742921CF5851C00F3EAB1 /* ViewController.m */,
+				50F742941CF5851C00F3EAB1 /* Main.storyboard */,
+				50F742971CF5851C00F3EAB1 /* Assets.xcassets */,
+				50F742991CF5851C00F3EAB1 /* LaunchScreen.storyboard */,
+				50F7429C1CF5851C00F3EAB1 /* Info.plist */,
+				50F7428B1CF5851C00F3EAB1 /* Supporting Files */,
+			);
+			path = CRTopStatusWindow;
+			sourceTree = "<group>";
+		};
+		50F7428B1CF5851C00F3EAB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50F7428C1CF5851C00F3EAB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50F742A41CF5851C00F3EAB1 /* CRTopStatusWindowTests */ = {
+			isa = PBXGroup;
+			children = (
+				50F742A51CF5851C00F3EAB1 /* CRTopStatusWindowTests.m */,
+				50F742A71CF5851C00F3EAB1 /* Info.plist */,
+			);
+			path = CRTopStatusWindowTests;
+			sourceTree = "<group>";
+		};
+		50F742AF1CF5851C00F3EAB1 /* CRTopStatusWindowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50F742B01CF5851C00F3EAB1 /* CRTopStatusWindowUITests.m */,
+				50F742B21CF5851C00F3EAB1 /* Info.plist */,
+			);
+			path = CRTopStatusWindowUITests;
+			sourceTree = "<group>";
+		};
+		50F742C51CF58AE000F3EAB1 /* CRTopWindow */ = {
+			isa = PBXGroup;
+			children = (
+				50F742C61CF58AE000F3EAB1 /* CRTopViewController.h */,
+				50F742C71CF58AE000F3EAB1 /* CRTopViewController.m */,
+				50F742C81CF58AE000F3EAB1 /* CRTopWindow.h */,
+				50F742C91CF58AE000F3EAB1 /* CRTopWindow.m */,
+			);
+			path = CRTopWindow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50F742871CF5851C00F3EAB1 /* CRTopStatusWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F742B51CF5851C00F3EAB1 /* Build configuration list for PBXNativeTarget "CRTopStatusWindow" */;
+			buildPhases = (
+				50F742841CF5851C00F3EAB1 /* Sources */,
+				50F742851CF5851C00F3EAB1 /* Frameworks */,
+				50F742861CF5851C00F3EAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRTopStatusWindow;
+			productName = CRTopStatusWindow;
+			productReference = 50F742881CF5851C00F3EAB1 /* CRTopStatusWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50F742A01CF5851C00F3EAB1 /* CRTopStatusWindowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F742B81CF5851C00F3EAB1 /* Build configuration list for PBXNativeTarget "CRTopStatusWindowTests" */;
+			buildPhases = (
+				50F7429D1CF5851C00F3EAB1 /* Sources */,
+				50F7429E1CF5851C00F3EAB1 /* Frameworks */,
+				50F7429F1CF5851C00F3EAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50F742A31CF5851C00F3EAB1 /* PBXTargetDependency */,
+			);
+			name = CRTopStatusWindowTests;
+			productName = CRTopStatusWindowTests;
+			productReference = 50F742A11CF5851C00F3EAB1 /* CRTopStatusWindowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50F742AB1CF5851C00F3EAB1 /* CRTopStatusWindowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F742BB1CF5851C00F3EAB1 /* Build configuration list for PBXNativeTarget "CRTopStatusWindowUITests" */;
+			buildPhases = (
+				50F742A81CF5851C00F3EAB1 /* Sources */,
+				50F742A91CF5851C00F3EAB1 /* Frameworks */,
+				50F742AA1CF5851C00F3EAB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50F742AE1CF5851C00F3EAB1 /* PBXTargetDependency */,
+			);
+			name = CRTopStatusWindowUITests;
+			productName = CRTopStatusWindowUITests;
+			productReference = 50F742AC1CF5851C00F3EAB1 /* CRTopStatusWindowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50F742801CF5851C00F3EAB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lyw;
+				TargetAttributes = {
+					50F742871CF5851C00F3EAB1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					50F742A01CF5851C00F3EAB1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 50F742871CF5851C00F3EAB1;
+					};
+					50F742AB1CF5851C00F3EAB1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 50F742871CF5851C00F3EAB1;
+					};
+				};
+			};
+			buildConfigurationList = 50F742831CF5851C00F3EAB1 /* Build configuration list for PBXProject "CRTopStatusWindow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50F7427F1CF5851C00F3EAB1;
+			productRefGroup = 50F742891CF5851C00F3EAB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50F742871CF5851C00F3EAB1 /* CRTopStatusWindow */,
+				50F742A01CF5851C00F3EAB1 /* CRTopStatusWindowTests */,
+				50F742AB1CF5851C00F3EAB1 /* CRTopStatusWindowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50F742861CF5851C00F3EAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F7429B1CF5851C00F3EAB1 /* LaunchScreen.storyboard in Resources */,
+				50F742981CF5851C00F3EAB1 /* Assets.xcassets in Resources */,
+				50F742961CF5851C00F3EAB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F7429F1CF5851C00F3EAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F742AA1CF5851C00F3EAB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50F742841CF5851C00F3EAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F742931CF5851C00F3EAB1 /* ViewController.m in Sources */,
+				50F742901CF5851C00F3EAB1 /* AppDelegate.m in Sources */,
+				50F742CB1CF58AE000F3EAB1 /* CRTopWindow.m in Sources */,
+				50F7428D1CF5851C00F3EAB1 /* main.m in Sources */,
+				50F742CA1CF58AE000F3EAB1 /* CRTopViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F7429D1CF5851C00F3EAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F742A61CF5851C00F3EAB1 /* CRTopStatusWindowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F742A81CF5851C00F3EAB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F742B11CF5851C00F3EAB1 /* CRTopStatusWindowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50F742A31CF5851C00F3EAB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50F742871CF5851C00F3EAB1 /* CRTopStatusWindow */;
+			targetProxy = 50F742A21CF5851C00F3EAB1 /* PBXContainerItemProxy */;
+		};
+		50F742AE1CF5851C00F3EAB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50F742871CF5851C00F3EAB1 /* CRTopStatusWindow */;
+			targetProxy = 50F742AD1CF5851C00F3EAB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50F742941CF5851C00F3EAB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F742951CF5851C00F3EAB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50F742991CF5851C00F3EAB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F7429A1CF5851C00F3EAB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50F742B31CF5851C00F3EAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50F742B41CF5851C00F3EAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50F742B61CF5851C00F3EAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CRTopStatusWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ly.CRTopStatusWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50F742B71CF5851C00F3EAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CRTopStatusWindow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ly.CRTopStatusWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50F742B91CF5851C00F3EAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CRTopStatusWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ly.CRTopStatusWindowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRTopStatusWindow.app/CRTopStatusWindow";
+			};
+			name = Debug;
+		};
+		50F742BA1CF5851C00F3EAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CRTopStatusWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ly.CRTopStatusWindowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRTopStatusWindow.app/CRTopStatusWindow";
+			};
+			name = Release;
+		};
+		50F742BC1CF5851C00F3EAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CRTopStatusWindowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ly.CRTopStatusWindowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CRTopStatusWindow;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		50F742BD1CF5851C00F3EAB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CRTopStatusWindowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ly.CRTopStatusWindowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CRTopStatusWindow;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50F742831CF5851C00F3EAB1 /* Build configuration list for PBXProject "CRTopStatusWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F742B31CF5851C00F3EAB1 /* Debug */,
+				50F742B41CF5851C00F3EAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F742B51CF5851C00F3EAB1 /* Build configuration list for PBXNativeTarget "CRTopStatusWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F742B61CF5851C00F3EAB1 /* Debug */,
+				50F742B71CF5851C00F3EAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F742B81CF5851C00F3EAB1 /* Build configuration list for PBXNativeTarget "CRTopStatusWindowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F742B91CF5851C00F3EAB1 /* Debug */,
+				50F742BA1CF5851C00F3EAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F742BB1CF5851C00F3EAB1 /* Build configuration list for PBXNativeTarget "CRTopStatusWindowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F742BC1CF5851C00F3EAB1 /* Debug */,
+				50F742BD1CF5851C00F3EAB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50F742801CF5851C00F3EAB1 /* Project object */;
+}
